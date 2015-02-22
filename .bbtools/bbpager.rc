@@ -1,0 +1,74 @@
+bbpager.margin:             1
+
+!** Set the margin between the desktops.
+bbpager.desktop.margin:	 1
+
+!** Define the frame style.
+!** bbpager will attempt to copy these options from the blackbox
+!**   toolbar style.
+bbpager.frame.appearance: Flat Gradient Vertical
+bbpager.frame.color1:     #d3d3d3
+bbpager.frame.color2:     #d3d3d3
+
+!** Define the desktop window style. This style is used to draw
+!**   all desktops when bbpager.desktop.focusStyle is none or border,
+!**   and it is used to draw the unfocused desktops when
+!**   bbpager.desktop.focusStyle is texture.
+!** bbpager will attempt to copy these options from the blackbox
+!**   toolbar.label style.
+
+bbpager.desktop.appearance: Flat Gradient Vertical
+bbpager.desktop.color1:     #BBBBBB
+bbpager.desktop.color2:     #BBBBBB
+
+!** Define the focused desktop window style. This style is used
+!**   to draw the focused desktop when bbpager.desktop.focusStyle
+!**   is texture.
+
+bbpager.desktop.focus.appearance: Flat Gradient Vertical
+bbpager.desktop.focus.color1:     #D1E1E8
+bbpager.desktop.focus.color2:     #D1E1E8
+
+!** Define the border for the focused desktop window.
+!** Set borderWidth to 0 for no border.
+!** Not relevant when bbpager.desktop.focusStyle is none.
+
+bbpager.active.desktop.borderColor:	#7E8D93
+bbpager.active.desktop.borderWidth:	1
+
+!** Define the border for unfocused desktop windows.
+!** Set borderWidth to 0 for no border.
+bbpager.inactive.desktop.borderColor:	#a5a5a5
+bbpager.inactive.desktop.borderWidth:	1
+
+!** Define the window style. This style is used to draw all
+!**   windows when bbpager.window.focusStyle is none or border,
+!**   and it is used to draw the unfocused windows when
+!**   bbpager.window.focusStyle is texture.
+!** bbpager will attempt to copy these options from the blackbox
+!**   window.label.unfocus style.
+
+bbpager.window.appearance: Flat Gradient Vertical
+bbpager.window.color1:     #e0e0e0
+bbpager.window.color2:     #e1e1e1
+
+!** Define the focused window style. This style is used to draw
+!**   the focused window when bbpager.window.focusStyle is
+!**   texture.
+!** bbpager will attempt to copy these options from the blackbox
+!**   window.label.focus style.
+
+bbpager.window.focus.appearance: Flat Gradient Vertical
+bbpager.window.focus.color1:     #404040
+bbpager.window.focus.color2:     #474747
+
+!** Define the border for the focused window.
+!** Set borderWidth to 0 for no border.
+!** Not relevant when bbpager.window.focusStyle is none.
+bbpager.active.window.borderColor:	#404040
+bbpager.active.window.borderWidth:	1
+
+!** Define the border for unfocused windows.
+!** Set borderWidth to 0 for no border.
+bbpager.inactive.window.borderColor:	#888888
+bbpager.inactive.window.borderWidth:	1
