@@ -72,3 +72,7 @@ bbpager.active.window.borderWidth:	1
 !** Set borderWidth to 0 for no border.
 bbpager.inactive.window.borderColor:	#888888
 bbpager.inactive.window.borderWidth:	1
+
+!** Top right
+bbpager.position:               -0+0
+
