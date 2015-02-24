@@ -32,7 +32,7 @@ RootMenu = "Pekwm" {
 		Entry = "Exit" { Actions = "Exit" }
 	}
 	Separator {}
-	INCLUDE = "debian-menu"
+	INCLUDE = "/etc/pekwm/debian-menu"
 }
 
 WindowMenu = "Window Menu" {
