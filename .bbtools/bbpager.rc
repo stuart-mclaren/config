@@ -76,3 +76,5 @@ bbpager.inactive.window.borderWidth:	1
 !** Top right
 bbpager.position:               -0+0
 
+bbpager.desktop.width:          72
+bbpager.desktop.height:         40
