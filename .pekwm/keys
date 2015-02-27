@@ -7,6 +7,8 @@ Global {
 # Adding your own frequently used actions is easy -
 # just copy it over from CHAINS and edit the keypress!
 	# Moving in frames
+	KeyPress = "Mod1 F1" { Actions = "Exec terminator" }
+	KeyPress = "Mod1 F12" { Actions = "Exec i3lock -c 000000" }
 	KeyPress = "Mod1 Tab" { Actions = "NextFrame EndRaise" }
 	KeyPress = "Mod1 Shift Tab" { Actions = "PrevFrame EndRaise" }
 	KeyPress = "Mod1 Ctrl Tab" { Actions = "NextFrameMRU EndRaise" }
