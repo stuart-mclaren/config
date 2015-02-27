@@ -1,3 +1,9 @@
+!** Top right
+bbpager.position:               -0+0
+
+bbpager.desktop.width:          72
+bbpager.desktop.height:         40
+
 bbpager.margin:             1
 
 !** Set the margin between the desktops.
@@ -73,8 +79,3 @@ bbpager.active.window.borderWidth:	1
 bbpager.inactive.window.borderColor:	#888888
 bbpager.inactive.window.borderWidth:	1
 
-!** Top right
-bbpager.position:               -0+0
-
-bbpager.desktop.width:          72
-bbpager.desktop.height:         40
