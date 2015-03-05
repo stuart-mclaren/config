@@ -6,17 +6,17 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # for xsetroot
-aptitude install x11-xserver-utils
+aptitude -y install x11-xserver-utils
 
-aptitude install pekwm pekwm-themes
+aptitude -y install pekwm pekwm-themes
 
-aptitude install bbpager
+aptitude -y install bbpager
 
 # for xclock
-aptitude install x11-apps
+aptitude -y install x11-apps
 
-aptitude install terminator
+aptitude -y install terminator
 
-aptitude install xautolock
+aptitude -y install xautolock
 
-aptitude install i3lock
+aptitude -y install i3lock
