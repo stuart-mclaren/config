@@ -12,7 +12,8 @@ aptitude install pekwm pekwm-themes
 
 aptitude install bbpager
 
-aptitude install xclock
+# for xclock
+aptitude install x11-apps
 
 aptitude install terminator
 
