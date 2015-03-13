@@ -1,4 +1,4 @@
-$font_title="Helvetica-9#Right#XFT"
+$font_title="Helvetica-9#Left#XFT"
 $font="Helvetica-9#Left#XFT"
 
 
@@ -16,7 +16,7 @@ PDecor{
 Decor="Default"{
 Title{
 Height="20"
-Pad="3 3 7 8"
+Pad="2 3 5 8"
 
 Focused="Image title.xpm"
 Unfocused="Image title_unf.xpm"
