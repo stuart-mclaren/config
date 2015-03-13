@@ -1,0 +1,35 @@
+/* XPM */
+static char *tab_separator_png[] = {
+/* columns rows colors chars-per-pixel */
+"1 25 4 1",
+"0 c #000000",
+"A c #AABBCC",
+"D c #DDBB99",
+"F c #FFFFFF",
+/* pixels */
+"A",
+"A",
+"A",
+"A",
+"A",
+"A",
+"A",
+"A",
+"A",
+"A",
+"A",
+"A",
+"A",
+"D",
+"D",
+"D",
+"D",
+"D",
+"F",
+"F",
+"F",
+"F",
+"F",
+"F",
+"F"
+};

@@ -1,0 +1,37 @@
+/* XPM */
+static char *slice____[] = {
+/* columns rows colors chars-per-pixel */
+"8 21 10 1",
+"  c black",
+". c gray20",
+"X c #4C3C34",
+"o c gray40",
+"O c #987868",
+"+ c gray56",
+"@ c #D5A892",
+"# c gray70",
+"$ c gray71",
+"% c gray100",
+/* pixels */
+"@@@@@@@@",
+"OOOOOOOO",
+"OOOOOOOO",
+"OOOOOOOO",
+"OOOOOOOO",
+"OOOOOOOO",
+"OOOOOOOO",
+"OOOOOOOO",
+"OOOOOOOO",
+"OOOOOOOO",
+"OOOOOOOO",
+"OOOOOOOO",
+"OOOOOOOO",
+"OOOOOOOO",
+"OOOOOOOO",
+"OOOOOOOO",
+"OOOOOOOO",
+"OOOOOOOO",
+"XXXXXXXX",
+"XXXXXXXX",
+"$$$$$$$$"
+};

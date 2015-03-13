@@ -1,0 +1,23 @@
+/* XPM */
+static char *slice____[] = {
+/* columns rows colors chars-per-pixel */
+"6 8 10 1",
+"  c #000000",
+". c #333333",
+"X c #4C3C34",
+"o c #666666",
+"O c #987868",
+"+ c gray56",
+"@ c #D5A892",
+"# c gray70",
+"$ c gray71",
+"% c #ffffff",
+/* pixels */
+"@OOOXX",
+"@OOOXX",
+"@OOOXX",
+"@OOOXX",
+"@OOOXX",
+"@OOOXX",
+"@OOOXX",
+"@OOOXX"};
