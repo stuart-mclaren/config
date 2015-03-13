@@ -1,0 +1,293 @@
+#$font_title="AvantGarde-9#Right#XFT"
+$font_title="Helvetica-9#Right#XFT"
+$font="Helvetica-9#Left#XFT"
+
+#- xfontsel-like font info not working fine on this pekwm theme - i don't know the reason
+# $font_title="X11#-*-helvetica-*-r-*-*-14-*-*-*-*-*-*-*-#Right"
+# $font="X11#-*-helvetica-*-r-normal-*-9-*-*-*-*-*-*-*-#Left"
+# $font_title = "-*-helvetica-*-r-normal-*-14-*-*-*-*-*-*-*-#Right#1 1"
+# $font = "-*-helvetica-*-r-normal-*-9-*-*-*-*-*-*-*-#Left#1 1"
+
+# maybe buttons for window close, iconize, expand and shade should be different?
+# i can't draw those above and below edge wrinkles 
+
+PDecor{
+Decor="Default"{
+Title{
+Height="31"
+Pad="13 3 7 8"
+
+Focused="Image title.xpm"
+Unfocused="Image title_unf.xpm"
+
+Tab{
+Focused="Image title.xpm"
+FocusedSelected="Image title.xpm"
+Unfocused="Image title_unf.xpm"
+UnfocusedSelected="Image title_unf.xpm"}
+
+Separator{
+Focused="Image tab_separator.xpm"
+Unfocused="Image tab_separator.xpm"}
+
+Font{
+Focused="$font_title"}
+
+FontColor{
+Focused="#FF0000"
+FocusedSelected="#FFFFFF"
+Unfocused="#FFFFFF"
+UnfocusedSelected="#FFFFFF"}
+
+Buttons{
+Left{
+Focused="Image button_close.xpm"
+Unfocused="Image button_close_unf.xpm"
+Hover="Image button_close_hov.xpm"
+Pressed="Image button_close_pr.xpm"
+Button="1"{Actions="Close"}
+Button="3"{Actions="Kill"}}
+
+Left{
+Focused="Image button_hide.xpm"
+Unfocused="Image button_hide_unf.xpm"
+Hover="Image button_hide_hov.xpm"
+Pressed="Image button_hide_pr.xpm"
+Button="1"{Actions="Set Iconified"}}
+
+Left="Max"{
+Focused="Image button_full.xpm"
+Unfocused="Image button_full_unf.xpm"
+Hover="Image button_full_hov.xpm"
+Pressed="Image button_full_pr.xpm"
+Button="1"{Actions="Toggle Maximized 1 1"}}
+
+Left{
+Focused="Image button_shade.xpm"
+Unfocused="Image button_shade_unf.xpm"
+Hover="Image button_shade_hov.xpm"
+Pressed="Image button_shade_pr.xpm"
+Button="1"{Actions="Toggle Shaded"}}}
+
+Border{
+Focused{
+TopLeft="Image top_left.xpm"
+Top="Image top_border.xpm"
+TopRight="Image top_right.xpm"
+Left="Image leftright_border.xpm"
+Right="Image leftright_border.xpm"
+BottomLeft="Image bottom_left.xpm"
+Bottom="Image bottom_border.xpm"
+BottomRight="Image bottom_right.xpm"}
+
+Unfocused{
+TopLeft="Image top_left_unf.xpm"
+Top="Image top_border.xpm"
+TopRight="Image top_right_unf.xpm"
+Left="Image leftright_border_unf.xpm"
+Right="Image leftright_border_unf.xpm"
+BottomLeft="Image bottom_left_unf.xpm"
+Bottom="Image bottom_border_unf.xpm"
+BottomRight="Image bottom_right_unf.xpm"}
+}}}
+
+
+
+
+
+
+
+Decor="Menu"{
+Title{
+Height="20"
+Pad="2 4 6 8"
+
+Focused="Image menu_title.xpm"
+Unfocused="Image menu_title_unf.xpm"
+
+Tab{
+Focused="Image menu_title.xpm"
+FocusedSelected="Image menu_title.xpm"
+Unfocused="Image menu_title_unf.xpm"
+UnfocusedSelected="Image menu_title_unf.xpm"}
+
+Separator{
+Focused="Image top_left.xpm"
+Unfocused="Image top_left_unf.xpm"}
+ 
+Font{
+Focused="$font_title"}
+
+FontColor{
+Focused="#FF0000"
+FocusedSelected="#000000"
+Unfocused="#00FF00"
+UnfocusedSelected="#bfbfbf"}
+
+Buttons{}
+
+Border{
+Focused{
+TopLeft="Image bright.xpm"
+Top="Image bright.xpm"
+TopRight="Image brightshadow.xpm"
+Left="Image bright.xpm"
+Right="Image shadow.xpm"
+BottomLeft="Image brightshadow.xpm"
+Bottom="Image shadow.xpm"
+BottomRight="Image shadow.xpm"}
+
+Unfocused{
+TopLeft="Image bright_unf.xpm"
+Top="Image bright_unf.xpm"
+TopRight="Image brightshadow_unf.xpm"
+Left="Image bright_unf.xpm"
+Right="Image shadow_unf.xpm"
+BottomLeft="Image brightshadow_unf.xpm"
+Bottom="Image shadow_unf.xpm"
+BottomRight="Image shadow_unf.xpm"}
+
+}}}
+
+Decor="Titlebarless"{
+Title{
+Focused="Empty"
+Unfocused="Empty"
+
+Tab{
+Focused="Empty"
+FocusedSelected="Empty"
+Unfocused="Empty"
+UnfocusedSelected="Empty"}
+
+Separator{
+Focused="Empty"
+Unfocused="Empty"}
+
+Font{
+Focused="Empty"}
+
+FontColor{
+Focused="Empty"
+FocusedSelected="Empty"
+Unfocused="Empty"
+UnfocusedSelected="Empty"}
+ 
+Border{
+Focused{
+TopLeft="Empty"
+Top="Empty"
+TopRight="Empty"
+Left="Empty"
+Right="Empty"
+BottomLeft="Empty"
+Bottom="Empty"
+BottomRight="Empty"}
+
+Unfocused{
+TopLeft="Empty" 
+Top="Empty" 
+TopRight="Empty" 
+Left="Empty" 
+Right="Empty" 
+BottomLeft="Empty" 
+Bottom="Empty" 
+BottomRight="Empty"}
+
+}}}
+
+Decor="Statuswindow"{
+Title{
+Height="0"
+Pad="8 6 4 2"
+
+Focused="Empty"
+Unfocused="Empty"
+
+Tab{
+Focused="Empty"
+FocusedSelected="Empty"
+Unfocused="Empty"
+UnfocusedSelected="Empty"}
+
+Separator{
+Focused="Empty"
+Unfocused="Empty"}
+
+Font{
+Focused="Empty"}
+
+FontColor{
+Focused="Empty"
+FocusedSelected="Empty"
+Unfocused="Empty"
+UnfocusedSelected="Empty"}
+
+Buttons{}
+
+Border{
+Focused{
+TopLeft="Empty"
+Top="Empty"
+TopRight="Empty"
+Left="Empty"
+Right="Empty"
+BottomLeft="Empty"
+Bottom="Empty"
+BottomRight="Empty"}
+
+Unfocused{
+TopLeft="Empty"
+Top="Empty"
+TopRight="Empty"
+Left="Empty"
+Right="Empty"
+BottomLeft="Empty"
+Bottom="Empty"
+BottomRight="Empty"}
+
+}}}}
+
+Harbour{
+Texture="Solid #FF00FF"}
+
+Menu{
+Pad="2 0 4 8" 
+
+Focused{
+Font="$font"
+Background="Solid #987868"
+Item="Empty"
+Text="#000000" 
+Separator="Image menuline.xpm#Scaled"
+Arrow="Image arrow.xpm"}
+
+Unfocused{
+Font="$font"
+Background="Solid #666666"
+Item="Empty"
+Text="#b3b3b3"
+Separator="Image menuline_unf.xpm#Scaled"
+Arrow="Image arrow_unf.xpm"}
+
+Selected{
+Font="$font"
+Background="Solid #000000"
+Item="Empty"
+Text="#987868"
+Arrow="Image arrow.xpm"}
+
+}
+
+CmdDialog{
+Font="$font"
+Texture="Solid #ffffff"
+Text="#000000"
+Pad="3 10 1 3"}
+
+Status{
+Font="$font"
+Texture="Solid #987868" 
+Text="#000000"
+Pad="4 2 10 30"}
+
