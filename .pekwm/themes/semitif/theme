@@ -47,7 +47,8 @@ Focused="Image button_full.xpm"
 Unfocused="Image button_full_unf.xpm"
 Hoover="Image button_full_hov.xpm"
 Pressed="Image button_full_pr.xpm"
-Button="1"{Actions="Toggle Maximized 1 1"}}
+Button="1"{Actions="Toggle Maximized 1 1"}
+Button="2"{Actions="MaxFill True True"}}
 
 #Right{
 #Focused="Image button_close.xpm"
@@ -57,19 +58,19 @@ Button="1"{Actions="Toggle Maximized 1 1"}}
 #Button="1"{Actions="Close"}
 #Button="3"{Actions="Kill"}}
 
-Right{
+Left{
 Focused="Image button_hide.xpm"
 Unfocused="Image button_hide_unf.xpm"
 Hoover="Image button_hide_hov.xpm"
 Pressed="Image button_hide_pr.xpm"
 Button="1"{Actions="Close"}}
 
-#Right{
-#Focused="Image button_shade.xpm"
-#Unfocused="Image button_shade_unf.xpm"
-#Hoover="Image button_shade_hov.xpm"
-#Pressed="Image button_shade_pr.xpm"
-#Button="1"{Actions="Toggle Shaded"}}
+Right{
+Focused="Image button_shade.xpm"
+Unfocused="Image button_shade_unf.xpm"
+Hoover="Image button_shade_hov.xpm"
+Pressed="Image button_shade_pr.xpm"
+Button="1"{Actions="Toggle Shaded"}}
 }
 
 Border{
