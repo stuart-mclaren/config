@@ -20,3 +20,5 @@ aptitude -y install terminator
 aptitude -y install xautolock
 
 aptitude -y install i3lock
+
+aptitude -y install wbar
