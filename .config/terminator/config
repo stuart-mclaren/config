@@ -10,6 +10,8 @@
     antialias = False
     copy_on_selection = True
     background_color = "#0a0a0a"
+    scrollback_infinite = True
+    scrollbar_position = disabled
 [layouts]
   [[default]]
     [[[child1]]]
