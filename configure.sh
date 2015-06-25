@@ -2,7 +2,7 @@
 
 DATE=`date | tr ' ' '_'`
 
-LINKS=".bbtools .xsession .xinitrc .pekwm .i3lock .wbar"
+LINKS=".bbtools .xsession .xinitrc .pekwm .i3lock .wbar .config/terminator/config"
 
 for LINK in $LINKS
 do

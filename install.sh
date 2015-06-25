@@ -16,6 +16,7 @@ aptitude -y install bbpager
 aptitude -y install x11-apps
 
 aptitude -y install terminator
+aptitude install -y xfonts-terminus
 
 aptitude -y install xautolock
 
