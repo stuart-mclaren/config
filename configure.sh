@@ -10,5 +10,6 @@ do
     then
         mv ~/$LINK ~/${LINK}.${DATE}
     fi
+    mkdir -p ~/`dirname $LINK`
     ln -s ~/git/config/$LINK ~/$LINK
 done
