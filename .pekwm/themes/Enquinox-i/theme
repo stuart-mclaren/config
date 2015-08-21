@@ -56,21 +56,7 @@ PDecor {
 				Button = "1" { Actions = "Toggle Maximized 1 1" }
 			}
 
-			Left  {
-				Focused = "Image pus.png"
-				Unfocused = "Image pus_unfocus.png"
-				Hoover = "Image pus_hover.png"
-				Pressed = "Image pus_press.png"
-				Button = "1" { Actions = "Toggle Shaded" }
-			}
 
-			Right {
-				Focused = "Image min.png"
-				Unfocused = "Image min_unfocus.png"
-				Hoover = "Image min_hover.png"
-				Pressed = "Image min_press.png"
-				Button = "1" { Actions = "Set Iconified" }
-			}
 		}
 			Border {
 				Focused {
