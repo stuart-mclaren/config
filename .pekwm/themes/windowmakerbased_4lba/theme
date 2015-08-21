@@ -48,14 +48,14 @@ Pressed="Image button_close_pr.xpm"
 Button="1"{Actions="Close"}
 Button="3"{Actions="Kill"}}
 
-Left{
-Focused="Image button_hide.xpm"
-Unfocused="Image button_hide_unf.xpm"
+#Left{
+#Focused="Image button_hide.xpm"
+#Unfocused="Image button_hide_unf.xpm"
 Hover="Image button_hide_hov.xpm"
-Pressed="Image button_hide_pr.xpm"
-Button="1"{Actions="Set Iconified"}}
+#Pressed="Image button_hide_pr.xpm"
+#Button="1"{Actions="Set Iconified"}}
 
-Left="Max"{
+Right="Max"{
 Focused="Image button_full.xpm"
 Unfocused="Image button_full_unf.xpm"
 Hover="Image button_full_hov.xpm"
