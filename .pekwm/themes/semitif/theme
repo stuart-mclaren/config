@@ -1,6 +1,7 @@
-$font_title="Helvetica-9#Left#XFT"
-$font="Helvetica-9#Left#XFT"
-
+#$font_title="Helvetica-9#Left#XFT"
+#$font="Helvetica-9#Left#XFT"
+$font = "XFT#DejaVu Sans:size=9:condensed#Left"
+$font_title = "XFT#DejaVu Sans:size=10:condensed#Left"
 
 
 #- xfontsel-like font info not working fine on this pekwm theme - i don't know the reason
