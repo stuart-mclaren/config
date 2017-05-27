@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Configure's user settings only
+
 DATE=`date | tr ' ' '_'`
 
 LINKS=".bbtools .xsession .xinitrc .pekwm .i3lock .wbar .config/terminator/config"

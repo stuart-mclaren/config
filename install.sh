@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Installs and configures global settings
+
 if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root" 1>&2
    exit 1
@@ -23,3 +25,6 @@ aptitude -y install xautolock
 aptitude -y install i3lock
 
 aptitude -y install wbar
+
+HOST=`/bin/hostname --short`
+cd machines/$HOST/root; cp -pvr . /
