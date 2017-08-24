@@ -4,7 +4,7 @@
 
 DATE=`date | tr ' ' '_'`
 
-LINKS=".bbtools .xsession .xinitrc .pekwm .i3lock .wbar .config/terminator/config .vimrc .vim/colors/mclaren.vim"
+LINKS=".bbtools .xsession .xinitrc .pekwm .i3lock .wbar .config/terminator/config .vimrc .vim/colors/mclaren.vim .Xresources"
 
 for LINK in $LINKS
 do
